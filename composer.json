@@ -1,0 +1,25 @@
+{
+    "name": "eliasdevmind/cursormvc",
+    "description": "cursor de mvc com composer",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Elias Araujo.",
+            "email": "eliasaraujo1222@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+    
+}
